@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Podaj tryb liczenia (r|p) i indeks liczby w ciągu Fibonacciego, np. r7. Wyjście - q");
+        System.out.println("Dzień dobry! Podaj tryb liczenia (r|p) i indeks liczby w ciągu Fibonacciego, np. r7. Wyjście - q");
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -28,5 +28,7 @@ public class Main {
             Fibonacci fibonacci = factory.findProperFibonacci();
             System.out.println("WYNIK: " + fibonacci.findElement(factory.index));
         }
+
+        System.out.println("Do zobaczenia!");
     }
 }
