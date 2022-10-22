@@ -9,6 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("!!!");
         System.out.println("Hej! Podaj tryb liczenia (r|p) i indeks liczby w ciągu Fibonacciego, np. r7. Wyjście - q");
 
         Scanner scanner = new Scanner(System.in);
@@ -17,7 +18,7 @@ public class Main {
             FibonacciFactory factory = new FibonacciFactory(line);
 
             if (factory.mode == null) {
-                System.out.println("Niepoprawne wejście! Spróbuj ponownie");
+                System.out.println("Niepopradddwne wejście! Spróbuj ponownie");
                 continue;
             }
 
